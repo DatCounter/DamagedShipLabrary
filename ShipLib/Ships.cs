@@ -43,7 +43,7 @@ namespace ShipLib
 
                 return _resultLastAttack;
             }
-            set
+            private set
             {
                 _resultLastAttack = value;
             }
@@ -105,10 +105,9 @@ namespace ShipLib
         /// return double view of percents
         /// </summary>
         /// <param name="sumDamage"></param>
-        private double GetDegreeOfDefeatAsDouble(int sumDamage, int fullHP)
+        private void GetDegreeOfDefeatAsDouble(int sumDamage, int fullHP)
         {
             ResultLastAttack = Convert.ToString(Math.Round(sumDamage / (double)fullHP, 3));
-            return Convert.ToDouble(ResultLastAttack);
         }
 
         //virtual class, doesn't usable at this project needs to import a interface
