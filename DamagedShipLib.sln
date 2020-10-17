@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipLib", "ShipLib\ShipLib.csproj", "{C6A1B6A1-8689-4541-A455-5CBB8DD0C755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestShipLib", "TestShipLib\TestShipLib.csproj", "{B629054A-41BB-4F46-88DE-05F1DDA5D2AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6A1B6A1-8689-4541-A455-5CBB8DD0C755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A1B6A1-8689-4541-A455-5CBB8DD0C755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A1B6A1-8689-4541-A455-5CBB8DD0C755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A1B6A1-8689-4541-A455-5CBB8DD0C755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B629054A-41BB-4F46-88DE-05F1DDA5D2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B629054A-41BB-4F46-88DE-05F1DDA5D2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B629054A-41BB-4F46-88DE-05F1DDA5D2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B629054A-41BB-4F46-88DE-05F1DDA5D2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA4DD9DE-3CC0-4C86-A5A4-12C638E94D14}
+	EndGlobalSection
+EndGlobal
